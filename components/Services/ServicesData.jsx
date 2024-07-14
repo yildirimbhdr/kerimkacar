@@ -1,6 +1,6 @@
 export const servicesData = {
     mainData: {
-        title: "Services",
+        title: "Servis",
         title2Span: "Hizmetlerimiz",
     },
     services: [
