@@ -1,5 +1,5 @@
 export const heroData = {
     mainData: {
-        name: "KerMIT",
+        name: "Kerim Kaçar",
     }
 };
