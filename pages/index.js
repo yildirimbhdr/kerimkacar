@@ -22,11 +22,7 @@ export default function Home() {
                 {/* Portfolio section */}
                 <Portfolio />
                 {/* Awards section */}
-                <Awards />
-                {/* Testimonial section */}
-                <Testimonial />
-                {/* Blog section */}
-                <Blog />
+            
                 {/* Contact section */}
                 <Contact />
                 {/* Footer section */}

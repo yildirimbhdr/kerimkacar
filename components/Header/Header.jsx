@@ -42,35 +42,28 @@ const Header = () => {
 					{/* Header Nav */}
 					<div className="header-nav">
 						<Link className="button button-sm button-dot me-2 me-lg-3" href="/#contact">
-							<span data-text="Let's Talk">Let&apos;s Talk</span>
+							<span data-text="İletişim">İletişim</span>
 						</Link>
 						{/* Nav Menu Toggle */}
 						<button type="button" onClick={toggleMenu} className="button button-sm button-dot button-white">
-							<span data-text="Menu">Menu</span>
+							<span data-text="Menu">Menü</span>
 						</button>
 						{/* Nav Menu Box */}
 						<div ref={menuRef} className={`nav-box ${isMenuOpen ? 'show' : ''}`}>
 							<ul className="nav">
 								<li className="nav-item">
-									<Link className="nav-link" href="/#about"><i className="bi bi-arrow-right"></i>About</Link>
+									<Link className="nav-link" href="/#about"><i className="bi bi-arrow-right"></i>Hakkımda</Link>
 								</li>
 								<li className="nav-item">
-									<Link className="nav-link" href="/#services"><i className="bi bi-arrow-right"></i>Services</Link>
+									<Link className="nav-link" href="/#services"><i className="bi bi-arrow-right"></i>Hizmetlerim</Link>
 								</li>
 								<li className="nav-item">
-									<Link className="nav-link" href="/#portfolio"><i className="bi bi-arrow-right"></i>Portfolio</Link>
+									<Link className="nav-link" href="/#portfolio"><i className="bi bi-arrow-right"></i>Çalışmalarım</Link>
 								</li>
+							
+								
 								<li className="nav-item">
-									<Link className="nav-link" href="/#awards"><i className="bi bi-arrow-right"></i>Awards</Link>
-								</li>
-								<li className="nav-item">
-									<Link className="nav-link" href="/#testimonial"><i className="bi bi-arrow-right"></i>Testimonial</Link>
-								</li>
-								<li className="nav-item">
-									<Link className="nav-link" href="/#blog"><i className="bi bi-arrow-right"></i>Blog</Link>
-								</li>
-								<li className="nav-item">
-									<Link className="nav-link" href="/#contact"><i className="bi bi-arrow-right"></i>Contact</Link>
+									<Link className="nav-link" href="/#contact"><i className="bi bi-arrow-right"></i>İletişim</Link>
 								</li>
 							</ul>
 						</div>

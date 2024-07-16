@@ -22,15 +22,16 @@ export const aboutData = {
     ],
     connect: [
         {
-            url: '#',
-            bootstrapIcon: 'bi bi-facebook',
+            url: 'https://www.artstation.com/kerimk',
+            bootstrapIcon: 'bi bi-box',
+        },
+        
+        {
+            url: 'https://www.youtube.com/@KerimK1',
+            bootstrapIcon: 'bi bi-youtube',
         },
         {
-            url: '#',
-            bootstrapIcon: 'bi bi-twitter',
-        },
-        {
-            url: '#',
+            url: 'https://www.instagram.com/kerim_kacar5/',
             bootstrapIcon: 'bi bi-instagram',
         },
     ]

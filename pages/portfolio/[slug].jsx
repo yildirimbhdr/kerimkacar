@@ -44,7 +44,7 @@ const ProjectPage = ({ project, prevProject, nextProject }) => {
                         <div className="row g-4 mt-5">
                             <div className="col-12 col-md-6 col-lg-3">
                                 <div className="fancy-box">
-                                    <h6 className="sm-heading mb-1">Services:</h6>
+                                    <h6 className="sm-heading mb-1">Hizmetler:</h6>
                                     <ul className="list-inline-dot">
                                         {project.services.map((item, index) => (
                                             <li key={index}>
@@ -56,13 +56,13 @@ const ProjectPage = ({ project, prevProject, nextProject }) => {
                             </div>
                             <div className="col-12 col-md-6 col-lg-3">
                                 <div className="fancy-box">
-                                    <h6 className="sm-heading mb-1">Client:</h6>
-                                    <p>{project.client}</p>
+                                    <h6 className="sm-heading mb-1">Program:</h6>
+                                    <p>{project.program}</p>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 col-lg-3">
                                 <div className="fancy-box">
-                                    <h6 className="sm-heading mb-1">Project link:</h6>
+                                    <h6 className="sm-heading mb-1">Link:</h6>
                                     <Link className="link-hover" href={project.projectLink.url}>
                                         <span data-text={project.projectLink.title}>{project.projectLink.title}</span>
                                     </Link>
@@ -70,7 +70,7 @@ const ProjectPage = ({ project, prevProject, nextProject }) => {
                             </div>
                             <div className="col-12 col-md-6 col-lg-3">
                                 <div className="fancy-box">
-                                    <h6 className="sm-heading mb-1">Duration:</h6>
+                                    <h6 className="sm-heading mb-1">Süre:</h6>
                                     <p>{project.duration}</p>
                                 </div>
                             </div>
