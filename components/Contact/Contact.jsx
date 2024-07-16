@@ -35,7 +35,7 @@ const Contact = () => {
                 <div className="row g-4 g-xl-5">
                     <div className="col-12 col-xl-4">
                         <span className="title-heading text-white-04">İletişim</span>
-                        <h1 className="display-3 fw-medium mb-0">İletişim'e <span className="text-gradient">Geç</span></h1>
+                        <h1 className="display-3 fw-medium mb-0">İletişim&apos;e <span className="text-gradient">Geç</span></h1>
                     </div>
                     <div className="col-12 col-xl-8">
                         <div className="row g-4 g-lg-5">
